@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 50%;
+    height: 30em;
+    display: flex;
+    flex-flow: column;
+}
+
+.article-container {
+    display: flex;
+    display: row wrap;
+    justify-content: left;
+}
+.article-container article {
+    height: 18px;
+    padding: 2px;
+    margin: 1em;
+}
+
+.blueBox {
+    width: 50%;
+    border: 1px blue solid;
+}
+.redBox {
+    width: 50%;
+    border: 1px red solid;
+}
